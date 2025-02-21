@@ -12,9 +12,9 @@ const createPlaceTable = async () => {
         geom GEOMETRY(Point, 4326)
       );
     `);
-    console.log('✅ Table "places" created or already exists.');
+    console.log('Table "places" created or already exists.');
   } catch (error) {
-    console.error('❌ Error creating table:', error);
+    console.error('Error creating table:', error);
   }
 };
 
