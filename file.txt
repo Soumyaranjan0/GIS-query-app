@@ -1,0 +1,31 @@
+gis-query-app/
+│── backend/                   # Node.js (Express) with PostgreSQL & PostGIS
+│   ├── controllers/           # Business logic for handling requests
+│   │   ├── placeController.js
+│   ├── models/                # Database models
+│   │   ├── Place.js
+│   ├── routes/                # API routes
+│   │   ├── placeRoutes.js
+│   ├── config/                # Database connection
+│   │   ├── db.js
+│   ├── index.js               # Entry point of the backend
+│   ├── package.json           # Dependencies
+│   ├── .env                   # Environment variables
+│
+│── frontend/                  # React.js with OpenLayers
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── MapComponent.js
+│   │   │   ├── AddLocation.js
+│   │   │   ├── NearbyPlaces.js
+│   │   │   ├── NearestPlace.js
+│   │   │   ├── DistanceCalculator.js
+│   │   ├── api/               # API Calls
+│   │   │   ├── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── public/                # Static files
+│   ├── package.json
+│   ├── .env                   # Frontend environment variables
+│
+│── README.md                  # Project documentation
